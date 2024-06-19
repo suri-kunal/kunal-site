@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Kunal's Blog"
+  page-footer:
+   center:
+     - icon: linkedin
+       href: https://www.linkedin.com/in/kunal-suri-8440119b/
+     - icon: twitter
+       href: https://x.com/suryakiran787
+     - icon: github
+       href: https://github.com/suri-kunal
+  favicon: favicon.ico
+  open-graph: true
+  twitter-card:
+    creator: "@suryakiran787"
+    site: "@suryakiran787"
+    card-style: summary_large_image
+  description: "A blog tracking my learnings in Data Science and Machine Learning"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmos
+    css: styles.css
+    toc: true

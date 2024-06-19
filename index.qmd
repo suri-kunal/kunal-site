@@ -1,0 +1,4 @@
+
+This website will host 30 Days design challenge from Arjan Egges
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
