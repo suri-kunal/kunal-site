@@ -1,4 +1,33 @@
+---
+sidebar: false
+description: "A blog tracking my learnings in Data Science and Machine Learning"
+image: quarto.jpg
+toc: true
+listing:
+  date-format: short
+  feed: true
+  filter-ui: true
+  type: table
+  sort-ui: false
+  sort: "date desc"
+  categories: false
+  fields: [date, title]
+  id: blog-listings
+  contents: [blog/posts]
+aliases: ["blog/"]
+format:
+  html:
+    anchor-sections: true
+---
 
-This website will host 30 Days design challenge from Arjan Egges
+::: {layout="[21,79]" .profile-header}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+![](kunal_headshot.jpeg){.profile-pic}
+
+Here to learn and blog about Machine Learning and Data Science - primary goal is to build in public
+
+:::
+
+## 📬 Follow Me
+
+I blog about my learnings on [Twitter](https://x.com/suryakiran787) and [LinkedIn](https://www.linkedin.com/in/kunal-suri-8440119b/). You can find my code at [GitHub](https://github.com/suri-kunal).
